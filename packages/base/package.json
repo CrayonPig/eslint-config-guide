@@ -1,0 +1,30 @@
+{
+  "name": "@eslint-config-guide/base",
+  "version": "0.0.1",
+  "description": "eslint-config-guide/base",
+  "author": "CrayonPig <475003925@qq.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript",
+    "styleguide",
+    "es2015",
+    "es2016",
+    "es2017",
+    "es2018"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrayonPig/eslint-config-guide"
+  }
+}
