@@ -5,7 +5,7 @@
   "author": "CrayonPig <475003925@qq.com>",
   "homepage": "",
   "license": "MIT",
-  "main": "lib/react.js",
+  "main": "index.js",
   "files": [
     "lib"
   ],
@@ -18,5 +18,15 @@
   },
   "scripts": {
     "test": "node ./__tests__/@eslint-config-guide/react.test.js"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0"
+  },
+  "dependencies": {
+    "@eslint-config-guide/base": "^0.0.1"
   }
 }
