@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-guide",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "eslint-config-guide",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^6.3.0"
   }

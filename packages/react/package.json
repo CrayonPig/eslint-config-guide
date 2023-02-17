@@ -2,7 +2,6 @@
   "name": "@eslint-config-guide/react",
   "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "CrayonPig <475003925@qq.com>",
   "homepage": "",
   "license": "MIT",
   "main": "index.js",
@@ -28,5 +27,6 @@
   },
   "dependencies": {
     "@eslint-config-guide/base": "^0.0.1"
-  }
+  },
+  "gitHead": "6f450cf3fa2e7d47a80ea0fd3bd5555296113af6"
 }
