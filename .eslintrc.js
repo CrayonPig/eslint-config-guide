@@ -5,6 +5,7 @@ module.exports = {
   },
   extends: [
     './lib/configs/base.js',
-    './lib/configs/typescript.js',
+    './lib/configs/typescript',
+    './lib/configs/vue3.js'
   ]
 };
